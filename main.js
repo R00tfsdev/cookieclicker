@@ -189,9 +189,9 @@ function formatEveryThirdPower(notations)
 
 function rawFormatter(val){return Math.round(val*1000)/1000;}
 
-var formatLong=[' thousand',' million',' billion',' trillion',' quadrillion',' quintillion',' sextillion',' septillion',' octillion',' nonillion'];
-var prefixes=['','un','duo','tre','quattuor','quin','sex','septen','octo','novem'];
-var suffixes=['decillion','vigintillion','trigintillion','quadragintillion','quinquagintillion','sexagintillion','septuagintillion','octogintillion','nonagintillion'];
+var formatLong=[' YOUR COMPUTER HAS A VIRUS!',' heres a pillow and a blanket',' ERRORjustkidding',' SIGMAOHIO',' ohio',' Migma',' dangggggthatsalot',' GET SOME FRICKING SLEEP',' HOWWWWWWWWWWW!!!!!!!!!!!!!!!',' grandmas cookies🤤🤤🤤'];
+var prefixes=['','amaclipyoutestme','duomeonfortnite','imtheluraxispeakforthetrees','mew','blud','bld','BYEBYE','october','1000SIGMAALPHAMALEMEWGIGAgegagedigedago'];
+var suffixes=['gegagedigedago','i really dont have to say any thing... it speaks for its self.','...','You have Got gegagedigedago Blud Coins','GET SOME HELP BLUD','Blud. How Are You Not... Tired','Blud Its September You have been in your room clicking Blud Coins Since january','SHUT UP IM MEWING BYE BYE','Blud Is Edging Sigma'];
 for (var i in suffixes)
 {
 	for (var ii in prefixes)
@@ -303,7 +303,7 @@ var FindLocStringByPart=function(match)
 }
 
 var Langs={
-	'EN':{file:'EN',nameEN:'English',name:'English',changeLanguage:'Language',icon:0,w:1,isEN:true},
+	'EN':{file:'EN',nameEN:'English',name:'BLUD JUST PICK English IT MAKES MY CODING EASYER PLS',changeLanguage:'Language',icon:0,w:1,isEN:true},
 	'FR':{file:'FR',nameEN:'French',name:'Fran&ccedil;ais',changeLanguage:'Langue',icon:0,w:1},
 	'DE':{file:'DE',nameEN:'German',name:'Deutsch',changeLanguage:'Sprache',icon:0,w:1},
 	'NL':{file:'NL',nameEN:'Dutch',name:'Nederlands',changeLanguage:'Taal',icon:0,w:1},
@@ -1927,9 +1927,9 @@ Game.Launch=function()
 	{
 		l('offGameMessage').innerHTML=
 		'<div class="title">Oops. Wrong address!</div>'+
-		'<div>It looks like you\'re accessing Cookie Clicker from another URL than the official one.<br>'+
-		'You can <a href="//orteil.dashnet.org/cookieclicker/" target="_blank">play Cookie Clicker over here</a>!<br>'+
-		'<small>(If for any reason, you are unable to access the game on the official URL, we are currently working on a second domain.)</small></div>';
+		'<div>It looks like you\'re accessing Blud Clicker from another URL than the official one.<br>'+
+		'You can <a href="//r00tfsdev.github.io/cookieclicker/" target="_blank">play Blud Clicker over here</a>!<br>'+
+		'<small>(If for any reason, you are unable to access the game on the official URL, we are currently working on a second domain:)</small></div>';
 	}
 	Game.timedout=false;
 	Game.Timeout=function()
@@ -2222,7 +2222,7 @@ Game.Launch=function()
 			var str='';
 			if (EN)
 			{
-				return (Math.random()>0.05?(choose(['Magic','Fantastic','Fancy','Sassy','Snazzy','Pretty','Cute','Pirate','Ninja','Zombie','Robot','Radical','Urban','Cool','Hella','Sweet','Awful','Double','Triple','Turbo','Techno','Disco','Electro','Dancing','Wonder','Mutant','Space','Science','Medieval','Future','Captain','Bearded','Lovely','Tiny','Big','Fire','Water','Frozen','Metal','Plastic','Solid','Liquid','Moldy','Shiny','Happy','Happy Little','Slimy','Tasty','Delicious','Hungry','Greedy','Lethal','Professor','Doctor','Power','Chocolate','Crumbly','Choklit','Righteous','Glorious','Mnemonic','Psychic','Frenetic','Hectic','Crazy','Royal','El','Von'])+' '):'Mc')+choose(['Cookie','Biscuit','Muffin','Scone','Cupcake','Pancake','Chip','Sprocket','Gizmo','Puppet','Mitten','Sock','Teapot','Mystery','Baker','Cook','Grandma','Click','Clicker','Spaceship','Factory','Portal','Machine','Experiment','Monster','Panic','Burglar','Bandit','Booty','Potato','Pizza','Burger','Sausage','Meatball','Spaghetti','Macaroni','Kitten','Puppy','Giraffe','Zebra','Parrot','Dolphin','Duckling','Sloth','Turtle','Goblin','Pixie','Gnome','Computer','Pirate','Ninja','Zombie','Robot']);
+				return (Math.random()>0.05?(choose(['Mewing','socool','yayy','Sassy','Snazzy','Pretty','Cute','Pirate','Ninja','Zombie','Robot','Radical','Urban','Cool','Hella','Sweet','Awful','Double','Triple','Turbo','Techno','Disco','Electro','Dancing','Wonder','Mutant','Space','Science','Medieval','Future','Captain','Bearded','Lovely','Tiny','Big','Fire','Water','Frozen','Metal','Plastic','Solid','Liquid','Moldy','Shiny','Happy','Happy Little','Slimy','Tasty','Delicious','Hungry','Greedy','Lethal','Professor','Doctor','Power','Chocolate','Crumbly','Choklit','Righteous','Glorious','Mnemonic','Psychic','Frenetic','Hectic','Crazy','Royal','El','Von'])+' '):'Mc')+choose(['Cookie','Biscuit','Muffin','Scone','Cupcake','Pancake','Chip','Sprocket','Gizmo','Puppet','Mitten','Sock','Teapot','Mystery','Baker','Cook','Grandma','Click','Clicker','Spaceship','Factory','Portal','Machine','Experiment','Monster','Panic','Burglar','Bandit','Booty','Potato','Pizza','Burger','Sausage','Meatball','Spaghetti','Macaroni','Kitten','Puppy','Giraffe','Zebra','Parrot','Dolphin','Duckling','Sloth','Turtle','Goblin','Pixie','Gnome','Computer','Pirate','Ninja','Zombie','Robot']);
 			}
 			else
 			{
@@ -2488,7 +2488,7 @@ Game.Launch=function()
 		
 		Game.externalDataLoaded=false;
 		
-		Game.grandmaNames=['Granny','Gusher','Ethel','Edna','Doris','Maud','Hilda','Gladys','Michelle','Michele','Phyllis','Millicent','Muriel','Myrtle','Mildred','Mavis','Helen','Gloria','Sheila','Betty','Gertrude','Agatha','Beryl','Agnes','Pearl','Precious','Ruby','Vera','Bonnie','Ada','Bunny','Cookie','Darling','Gaga','GamGam','Memaw','Mimsy','Peanut','Nana','Nan','Tootsie','Warty','Stinky','Heinous'];
+		Game.grandmaNames=['Granny','Gusher','Ethel','Edna','Doris','Maud','Hilda','BLUUDDD','Michelle','Michele','Phyllis','Millicent','Muriel','Myrtle','Mildred','Mavis','Helen','Gloria','Sheila','Betty','Gertrude','Agatha','Beryl','Agnes','Pearl','Precious','Ruby','Vera','Bonnie','Ada','Bunny','Cookie','Darling','Gaga','GamGam','Memaw','Mimsy','Peanut','Nana','Nan','Tootsie','Warty','Stinky','Heinous'];
 		Game.customGrandmaNames=[];
 		Game.heralds=0;
 		
@@ -2704,9 +2704,9 @@ Game.Launch=function()
 			str+=str2+'|';
 			if (type==3) str+='\n\nMisc game data';
 			str+=
-			(type==3?'\n	cookies : ':'')+parseFloat(Game.cookies).toString()+';'+
+			(type==3?'\n	BLUD COINSSSS : ':'')+parseFloat(Game.cookies).toString()+';'+
 			(type==3?'\n	total cookies earned : ':'')+parseFloat(Game.cookiesEarned).toString()+';'+
-			(type==3?'\n	cookie clicks : ':'')+parseInt(Math.floor(Game.cookieClicks))+';'+
+			(type==3?'\n	BLUD CIASFIODHSAJKF : ':'')+parseInt(Math.floor(Game.cookieClicks))+';'+
 			(type==3?'\n	golden cookie clicks : ':'')+parseInt(Math.floor(Game.goldenClicks))+';'+
 			(type==3?'\n	cookies made by clicking : ':'')+parseFloat(Game.handmadeCookies).toString()+';'+
 			(type==3?'\n	golden cookies missed : ':'')+parseInt(Math.floor(Game.missedGoldenClicks))+';'+
@@ -3650,7 +3650,7 @@ Game.Launch=function()
 		{
 			if (!bypass)
 			{
-				Game.Prompt('<id WipeSave><h3>'+loc("Wipe save")+'</h3><div class="block">'+tinyIcon([15,5])+'<div class="line"></div>'+loc("Do you REALLY want to wipe your save?<br><small>You will lose your progress, your achievements, and your heavenly chips!</small>")+'</div>',[[EN?'Yes!':loc("Yes"),'Game.ClosePrompt();Game.HardReset(1);','float:left'],[loc("No"),0,'float:right']]);
+				Game.Prompt('<id wipesave><h3>'+loc("BLUD WHY save")+'</h3><div class="block">'+tinyIcon([15,5])+'<div class="line"></div>'+loc("Do you REALLY want to wipe your save?<br><small>You will lose your progress, your achievements, and your heavenly chips!</small>")+'</div>',[[EN?'Yes!':loc("Yes"),'Game.ClosePrompt();Game.HardReset(1);','float:left'],[loc("No"),0,'float:right']]);
 			}
 			else if (bypass==1)
 			{
@@ -3858,7 +3858,7 @@ Game.Launch=function()
 						(context=='store'?(canBuy?'':' disabled'):'')+
 					'">'+Beautify(Math.round(cost))+'</span>'+((me.pool!='prestige' && me.priceLumps==0)?Game.costDetails(cost):'')+'</div>';
 					
-					ariaText+=(me.bought?'Bought for':canBuy?'Can buy for':'Cannot afford the')+' '+Beautify(Math.round(cost))+' '+((me.priceLumps>0)?'sugar lumps':(me.pool=='prestige')?'heavenly chips':'cookies')+'. ';
+					ariaText+=(me.bought?'Bought for':canBuy?'Can buy for':'Cannot afford the')+' '+Beautify(Math.round(cost))+' '+((me.priceLumps>0)?'sugar lumps':(me.pool=='prestige')?'heavenly chips':'Blud')+'. ';
 				}
 			}
 			else if (me.type=='achievement')
